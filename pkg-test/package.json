@@ -1,0 +1,17 @@
+{
+  "name": "@liucaidong/pkg-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "echo pkg-test preinstall",
+    "postinstall": "echo pkg-test postinstall",
+    "prepare": "echo pkg-test prepare"
+  },
+  "dependencies": {
+    "@liucaidong/pkg-c": "^1.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@liucaidong/pkg-a",
+  "version": "1.0.6",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "node ./index.js",
+    "postinstall": "echo pkg-a postinstall",
+    "prepare": "echo pkg-a prepare"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

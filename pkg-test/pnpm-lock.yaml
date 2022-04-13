@@ -1,0 +1,35 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@liucaidong/pkg-c': ^1.0.0
+
+dependencies:
+  '@liucaidong/pkg-c': 1.0.6
+
+packages:
+
+  /@liucaidong/pkg-a/1.0.6:
+    resolution: {integrity: sha512-VEC37MFbEZdw3URBr5unD/k3CpdY6OLtCKHYVZrlM6t0rwoIyxhII5K/bFKBliYqBomXsv134tHTvNNoLFqpTA==}
+    requiresBuild: true
+    dependencies:
+      lodash: 4.17.21
+    dev: false
+
+  /@liucaidong/pkg-b/1.0.5:
+    resolution: {integrity: sha512-LvlhQlzJJKn/gZDQuwE2KDH1O/HQSfSEs+0XLp8zgKXUB/ag9DtRnXpa004DyLS6k7ZGT0GRi5dgolNrme2xHw==}
+    requiresBuild: true
+    dependencies:
+      '@liucaidong/pkg-a': 1.0.6
+    dev: false
+
+  /@liucaidong/pkg-c/1.0.6:
+    resolution: {integrity: sha512-5BNl20unFzWnFPzco7tnfOtVPoWfoyzyDKuGTcWASnBh/x6V23GYdKvuwZ6/6Ag990l+GkbRoYJiHQGtSdw8fA==}
+    requiresBuild: true
+    dependencies:
+      '@liucaidong/pkg-a': 1.0.6
+      '@liucaidong/pkg-b': 1.0.5
+    dev: false
+
+  /lodash/4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+    dev: false

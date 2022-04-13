@@ -1,0 +1,18 @@
+{
+  "name": "@liucaidong/pkg-c",
+  "version": "1.0.6",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "node ./index.js",
+    "postinstall": "echo pkg-c postinstall",
+    "prepare": "echo pkg-c prepare"
+  },
+  "dependencies": {
+    "@liucaidong/pkg-a": "^1.0.0",
+    "@liucaidong/pkg-b": "^1.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
